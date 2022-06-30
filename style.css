@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fa-edit {
+  background-color: #ffc107;
+}
+
+.w3-container {
+  padding: 0;
+  margin: 0;
+}
+#secondForm {
+  display: none;
+}
+#amountInfoSection {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#amountInfoSection tr .priceCol {
+  font-weight: bold;
+}
+#offerTables {
+  display: none;
+}
+#clientSelectBox {
+  width: 33%;
+  height: 35.75px;
+  border-bottom-left-radius: 3.75px;
+  border-bottom-right-radius: 3.75px;
+  border-top-left-radius: 3.75px;
+  border-top-right-radius: 3.75px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: rgb(206, 212, 218);
+  color: rgb(73, 80, 87);
+}
+.dfltSize {
+  width: 976.375px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
